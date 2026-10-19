@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formularios</title>
+    </head>
+    <body>
+        <form method="post">
+            Ingresa tu nombre: <input type="text" name="txtNombre" placeholder="John Doe" required minlength="3"> <br>
+            Ingresa tu apellido: <input type="text" name="txtApellido" required> <br>
+            Ingresa tu email: <input type="email" name="Email" required placeholder="test@gmail.com"> <br>
+            Ingresa contraseña: <input type="password" name="txtPassword" required> <br>
+            Genero: <br> Femenino: <input type="radio" name="rbtnGenero" id="0" required> 
+            Masculino: <input type="radio" name="rbtnGenero" id="1" required> <br>
+            Estudios: <br> HTML5: <input type="checkbox" name="chbHTML5" required>
+            <br> CSS3: <input type="checkbox" name="chbCSS3">
+            <br> Java Script: <input type="checkbox" name="chbJavaScript"> <br>
+            Fecha de nacimiento: <input type="date" name="dtNacimiento" required> <br>
+            CV: <input type="file" name="flArchivo" value="Selecciona un archivo" required> <br>
+            <input type="submit" name="btnAceptar" value="Aceptar"> <br>
+        </form>
+    </body>
+</html>
