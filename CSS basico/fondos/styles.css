@@ -1,0 +1,32 @@
+body{
+    background-color: #48e;
+    margin: 0;
+}
+
+
+.box{
+    width: 90vw;
+    height: 50vh;
+    margin: 20px;
+    background:url(https://imgs.search.brave.com/rkAmNow_J4X8krGA86uRYsZsJWg_lplhMlPhLD9rmH8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QlpXSmpZbVZs/TkRrdFpqQTBPUzAw/TWpsbExUaGhZV1l0/TW1VeU16STNaakkz/TmpFelhrRXlYa0Zx/Y0djQC5qcGc) center/cover fixed #6fa ;
+    background-size: cover;
+}
+
+p{
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.opaco{
+    height: 100%;
+    width: 100%;
+    background-color: #000a;
+}
+
+.pepe{
+    color: #fff;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}

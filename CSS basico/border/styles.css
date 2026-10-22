@@ -24,9 +24,12 @@ input{
     margin: 5px;
     padding: 6px 9px;
     border: none;
-    border-top: 1px solid white;
+    color: greenyellow;
+    border-top: 1px solid greenyellow;
     background-color: transparent;
-    border-left: white;
+    border-left: 1px solid greenyellow;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 
 body{

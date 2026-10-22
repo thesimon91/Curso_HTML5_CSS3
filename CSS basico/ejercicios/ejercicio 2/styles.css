@@ -1,0 +1,140 @@
+body{
+    background: rgba(252, 252, 252, 0.6);
+    margin: 0;
+}
+
+.card{
+    width: 500px;
+    margin: auto;
+    background-color: #e3cdcd;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 0 40px #0004;
+    border-radius: 7px;
+}
+.red-card{
+    background-color: firebrick;
+}
+
+.red-card2{
+    background-color: rgb(126, 36, 36);
+    border-radius: 15px;
+}
+
+.blue_card{
+    background-color: #48e;
+}
+
+.blue_card2{
+    background-color: rgb(18, 81, 176);
+    border-radius: 15px;
+}
+
+.foto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px #333;
+    object-fit: cover;
+}
+
+.card2{
+    background-color: #dec1c1;
+    border-radius: 15px;
+    box-shadow: #0004;
+}
+
+.titulo{
+    font-size: 30px;
+    font-family: Megaman;
+    text-shadow: 0 0 5px #4449;
+    color: #333;
+    font-weight: 100;
+    margin-top:  15px;
+    margin-bottom: 15px;
+}
+
+.titulo2{
+    font-size: 30px;
+    font-family: PressStart;
+    text-shadow:  0 0 5px #4449;
+    font-weight: 100;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.titulo3{
+    font-size: 50px;
+    font-family: fantasy;
+    text-shadow:  0 0 5px #4449;
+    font-weight: 100;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.subtitulo{
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    text-shadow: 0 0 30px #4449;
+    color: #333;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 300;
+    padding: 5px;
+}
+.subtitulo2{
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    text-shadow: 0 0 30px rgba(225, 191, 191, 0.6);
+    color: #020202;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    padding: 5px;
+}
+.subtitulo3{
+    font-size: 20px;
+    font-family: Megaman;
+    text-align: center;
+    text-shadow: 0 0 30px rgba(225, 191, 191, 0.6);
+    color: #020202;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.parrafo{
+    font-size: 20px;
+    color: #333;
+    padding: 10px;
+}
+
+.parrafo2{
+        font-size: 20px;
+    color: #cdbbbb;
+    padding: 10px;
+}
+.parrafo3{
+    font-size: 20px;
+    color: #cec3c3;
+    padding: 10px;
+    text-shadow: 0 0 15px#3f3d3d;
+    font-family: PressStart;
+}
+
+.links{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+/*        <a href="https://instagram.com" target="_blank" class="links" title="Instagram">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2.982c2.937 0 3.285.011 4.445.064a6.087 6.087 0 0 1 2.042.379 3.408 3.408 0 0 1 1.265.823 3.408 3.408 0 0 1 .823 1.265 6.087 6.087 0 0 1 .379 2.042c.053 1.16.064 1.508.064 4.445s-.011 3.285-.064 4.445a6.087 6.087 0 0 1-.379 2.042 3.643 3.643 0 0 1-2.088 2.088 6.087 6.087 0 0 1-2.042.379c-1.16.053-1.508.064-4.445.064s-3.285-.011-4.445-.064a6.087 6.087 0 0 1-2.043-.379 3.408 3.408 0 0 1-1.264-.823 3.408 3.408 0 0 1-.823-1.265 6.087 6.087 0 0 1-.379-2.042c-.053-1.16-.064-1.508-.064-4.445s.011-3.285.064-4.445a6.087 6.087 0 0 1 .379-2.042 3.408 3.408 0 0 1 .823-1.265 3.408 3.408 0 0 1 1.265-.823 6.087 6.087 0 0 1 2.042-.379c1.16-.053 1.508-.064 4.445-.064M12 1c-2.987 0-3.362.013-4.535.066a8.074 8.074 0 0 0-2.67.511 5.392 5.392 0 0 0-1.949 1.27 5.392 5.392 0 0 0-1.269 1.948 8.074 8.074 0 0 0-.51 2.67C1.012 8.638 1 9.013 1 12s.013 3.362.066 4.535a8.074 8.074 0 0 0 .511 2.67 5.392 5.392 0 0 0 1.27 1.949 5.392 5.392 0 0 0 1.948 1.269 8.074 8.074 0 0 0 2.67.51C8.638 22.988 9.013 23 12 23s3.362-.013 4.535-.066a8.074 8.074 0 0 0 2.67-.511 5.625 5.625 0 0 0 3.218-3.218 8.074 8.074 0 0 0 .51-2.67C22.988 15.362 23 14.987 23 12s-.013-3.362-.066-4.535a8.074 8.074 0 0 0-.511-2.67 5.392 5.392 0 0 0-1.27-1.949 5.392 5.392 0 0 0-1.948-1.269 8.074 8.074 0 0 0-2.67-.51C15.362 1.012 14.987 1 12 1Zm0 5.351A5.649 5.649 0 1 0 17.649 12 5.649 5.649 0 0 0 12 6.351Zm0 9.316A3.667 3.667 0 1 1 15.667 12 3.667 3.667 0 0 1 12 15.667Zm5.872-10.859a1.32 1.32 0 1 0 1.32 1.32 1.32 1.32 0 0 0-1.32-1.32Z"></path>
+    </svg>
+</a>*/

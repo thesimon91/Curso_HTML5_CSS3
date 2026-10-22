@@ -1,0 +1,15 @@
+.box{
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: #c7fcd7;
+    margin: 20px;
+    margin-left: 100px;
+    color: #ed4a6a;
+    font-family: Megaman;
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+    border-top: 5px solid #ff005b;
+    height: 200px;
+    width: 300px;
+}
